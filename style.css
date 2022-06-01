@@ -31,6 +31,7 @@ body{
     grid-template-rows: auto 1fr auto;
     width: 300px;
     height: auto;
+    justify-items: center;
     
 }
 .logo{
@@ -95,4 +96,30 @@ body{
     .logo{
         display: block;
     }
+}
+
+.email-image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.email-image img{
+    width: 80px;
+    
+}
+.resend{
+    margin-top: 30px;
+    font-size: var(--sm);
+}
+.resend span{
+    color: var(--very-light-pink);
+}
+.resend a{
+    color: var(--Hospital-green);
+    text-decoration: none;
 }
