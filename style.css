@@ -75,6 +75,9 @@ body{
     padding: 10px;
     margin-bottom: 16px;
     border-color: #C7C7C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .primary-button{
@@ -97,7 +100,7 @@ body{
         display: block;
     }
 }
-
+    /* Pagina Confirmacion Email */
 .email-image{
     width: 132px;
     height: 132px;
