@@ -1,0 +1,16 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --white: #ffffff;
+    --text-input-field: #f7f7f7;
+    --black: #000000;
+    --Hospital-green: #acd9b2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%;
+}
